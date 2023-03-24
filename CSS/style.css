@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 7rem;
+    margin: 0 auto 0 auto;
+    padding-top: 20vh;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+hr {
+    border: 5px;
+    border-bottom: 0px;
+    border-style: dotted;
+    color: #EAF6F6;
+    width: 10%;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a  {
+    color: #11999E;
+    text-decoration: none;   
+}
+
+a:hover {
+    color: #EAF6F6
+}
+
+p {
+    color: #40514E;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.top-container {
+    height: 100vh;
+    background-color: #E4F9F5;
+    position: relative;
+}
+
+.middle-container {
+    margin: 50px auto;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-bottom: 0;
+    padding: 30px 0 1px 0;
+}
+
+.centered-paragraph {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.skills {
+    margin: 50px auto;
+}
+
+.skill-row {
+    margin: 30px auto;
+    padding: 10px 0;
+    width: 50%;
+}
+
+.coding-icon {
+    float: left;
+    margin-right: 30px;
+    width: 30%;
+}
+
+.intro {
+    font-weight: bold;
+    text-align: center;
+}
+
+.profile {
+    margin: 50px auto;
+}
+
+.btn {
+    background: #95f0f0;
+    background-image: -webkit-linear-gradient(top, #95f0f0, #59a3a3);
+    background-image: -moz-linear-gradient(top, #95f0f0, #59a3a3);
+    background-image: -ms-linear-gradient(top, #95f0f0, #59a3a3);
+    background-image: -o-linear-gradient(top, #95f0f0, #59a3a3);
+    background-image: linear-gradient(to bottom, #95f0f0, #59a3a3);
+    -webkit-border-radius: 22;
+    -moz-border-radius: 22;
+    border-radius: 22px;
+    text-shadow: 4px 3px 4px #666666;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px 20px 12px 20px;
+    text-decoration: none;
+}
+
+.footer-image {
+    padding-left: 15px;
+    width: 15px;
+}
+
+.top-cloud {
+    top: 10vh;
+    right: 30%;
+    position: absolute;
+}
+
+.bottom-cloud {
+    top: 60vh;
+    left: 30%;
+    position: absolute;
+}
+
+.mountain {
+    width: 50vw;
+    left: 25vw;
+    position: absolute;
+    bottom: 0px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    text-align: center;
+}
